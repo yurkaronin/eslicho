@@ -1,0 +1,44 @@
+.button {
+  font-family: inherit;
+  font-size: 16px;
+  line-height: 18px;
+  font-weight: 700;
+  padding: 23px 44px;
+  border-radius: 28px;
+  border: none;
+  display: block;
+  background-color: #2052c9;
+  color: #fff;
+  border: 1px solid #2052c9;
+  transition: all .3s ease-in-out;
+  cursor: pointer;
+
+}
+
+.button:hover {
+  background-color: #100e0c;
+  color: #fff;
+  border: 1px solid #ffffff;
+
+}
+
+.button--gray {
+  background-color: #383838;
+  padding: 0 20px;
+  margin: 12px auto;
+  border: 1px solid #383838;
+  transition: all .3s ease-in-out;
+}
+
+.button--gray:hover {
+  background-color: #2052c9;
+  border: 1px solid #ffffff;
+  cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+  .button--gray {
+    display: none;
+  }
+
+}

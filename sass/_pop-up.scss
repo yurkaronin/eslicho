@@ -1,0 +1,116 @@
+.pop-up {
+  display: none;
+  position: fixed;
+  max-width: 360px;
+  background-color: #252525;
+  color: #ffffff;
+  padding: 65px 100px;
+  padding-bottom: 55px;
+  top: 120px;
+  left: 50%;
+  z-index: 10;
+  margin-left: -295px;
+  box-shadow: 0 30px 50px rgba(0, 0, 0, 0.7);
+  transition: all .3s ease-in-out;
+
+}
+
+.modal-show {
+  display: block;
+
+  animation-name: bounce;
+  animation-duration: 0.6s;
+}
+
+.modal-close {
+  display: none;
+}
+
+.title--pop-up {
+  font-size: 36px;
+  line-height: 44px;
+  font-weight: 800;
+  color: #ffffff;
+  margin-bottom: 50px;
+  position: relative;
+
+}
+
+.pop-up__form {
+  max-width: 360px;
+  margin: 0 auto;
+}
+
+.pop-up__closed {
+  position: absolute;
+  top: 27px;
+  right: 27px;
+  width: 22px;
+  height: 22px;
+  background-color: #252525;
+  border: 0;
+  cursor: pointer;
+  font-size: 0;
+  background-image: url(../img/modal-closed.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.title--pop-up::after {
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 5px;
+  background: #3794f2;
+  left: 0;
+  bottom: -22px;
+}
+
+.pop-up__description {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+@media (max-width: 1280px) {
+  .pop-up {
+    padding: 20px 100px;
+    padding-bottom: 50px;
+    top: 80px;
+  }
+}
+
+@media (max-width: 640px) {
+  .pop-up {
+    position: absolute;
+      padding: 10px 10px;
+      left: 15px;
+      right: 15px;
+      margin: 0 auto;
+      padding-bottom: 45px;
+      top: 10px;
+      max-width: 260px;
+
+  }
+
+  .title--pop-up {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 29px;
+  }
+
+  .repair-service img {
+    width: auto;
+    height: 70px;
+  }
+
+  .pop-up__description {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .title--pop-up {
+    font-size: 20px;
+    line-height: 23px;
+  }
+}

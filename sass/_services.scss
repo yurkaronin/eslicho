@@ -1,0 +1,111 @@
+.page-main {
+  z-index: 1;
+  background-color: #fff;
+
+}
+
+.services__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.services {
+  padding-top: 75px;
+}
+
+.service__description {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  max-width: 810px;
+  margin: 0 auto;
+  padding: 32px 0;
+  margin-bottom: 50px;
+}
+
+.service__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.service__item {
+  margin-bottom: 15px;
+}
+
+.repair-service__description {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.repair-service {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  max-width: 265px;
+  padding: 0 20px;
+}
+
+.service__group {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.services__button {
+  margin: 0 auto;
+  margin-top: 55px;
+  margin-bottom: 74px;
+}
+
+@media (max-width: 1200px) {
+  .service__picture {
+    display: none;
+  }
+
+  .services {
+    padding-top: 45px;
+  }
+
+  .service__description {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 32px 55px 5px;
+  }
+
+  .services__list {
+    padding-left: 0;
+  }
+}
+
+@media (max-width: 767px) {
+
+  .title {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 70px;
+  }
+
+  .services__list {
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  .service__description {
+    font-size: 12px;
+    line-height: 15px;
+    padding: 18px 0;
+    margin-bottom: 20px;
+  }
+
+
+  .services__button {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+}

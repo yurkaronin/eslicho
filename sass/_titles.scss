@@ -1,0 +1,118 @@
+.big-title {
+  font-size: 42px;
+  line-height: 50px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.big-title span {
+  color: #3794f2;
+}
+
+.big-title b {
+  font-weight: 800;
+}
+
+.title {
+  font-weight: 300;
+  text-align: center;
+  font-size: 38px;
+  line-height: 46px;
+  position: relative;
+  margin-bottom: 100px;
+  margin-top: 0;
+}
+
+.title::after {
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 5px;
+  background: #3794f2;
+  margin: 0 auto;
+  right: 30px;
+  left: 30px;
+  bottom: -37px;
+}
+
+.title b {
+  font-weight: 800;
+}
+
+.repair-service__title {
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 800;
+  text-transform: uppercase;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.discount__title {
+  max-width: 460px;
+  position: relative;
+  font-size: 36px;
+  line-height: 44px;
+  text-align: left;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 60px;
+}
+
+.discount__title b {
+  font-weight: 800;
+}
+
+.discount__title::after {
+  content: "";
+  position: absolute;
+  width: 88px;
+  height: 5px;
+  background: #3794f2;
+  margin: 0 auto;
+  right: 30px;
+  left: -356px;
+  bottom: -20px;
+}
+
+@media (max-width: 1200px) {
+  .title {
+    font-size: 30px;
+    line-height: 35px;
+    margin-bottom: 75px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .big-title {
+    font-size: 22px;
+    line-height: 28px;
+  }
+
+  .main-header__bottom::after {
+    display: none;
+  }
+
+  .button {
+    font-size: 14px;
+    line-height: 16px;
+    padding: 20px 15px;
+    margin: 0 auto;
+  }
+
+  .title::after {
+    bottom: -17px;
+  }
+
+  .discount__button {
+    width: 80%;
+  }
+
+  .discount__title::after {
+    left: 0px;
+
+  }
+
+
+}

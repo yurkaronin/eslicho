@@ -1,0 +1,97 @@
+.contacts {
+  background-color: #fafafa;
+  padding: 0;
+  padding-top: 80px;
+}
+
+.contacts__info {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.contacts__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  max-width: 440px;
+
+}
+
+.contacts__item {
+  max-width: 400px;
+  padding: 5px 30px;
+}
+
+.contacts__title {
+  margin-bottom: 80px;
+}
+
+.comntacts__map {
+  background-image: url(../img/geo-location-esli-chio.png);
+}
+
+.contacts__link {
+  text-decoration: none;
+  font-family: inherit;
+  color: inherit;
+  font-weight: 700;
+  color: #2052c9;
+}
+
+@media (max-width: 1200px) {
+  .contacts {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .contacts__info {
+    display: block;
+  }
+
+  .contacts-wrapper {
+    padding: 0;
+  }
+
+  .comntacts__map {
+    width: 65%;
+  }
+
+  .contacts {
+    padding-top: 0px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .contacts {
+    padding: 0 20px;
+    padding-top: 40px;
+  }
+
+  .contacts__title {
+    margin-bottom: 50px;
+  }
+
+  .contacts__info {
+    display: block;
+  }
+
+  .contacts__list {
+    max-width: 100%;
+    display: block;
+  }
+
+  .contacts__item {
+    max-width: 100%;
+    padding: 5px 0;
+  }
+
+  .comntacts__map {
+    display: none;
+  }
+
+}

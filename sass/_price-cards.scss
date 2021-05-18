@@ -1,0 +1,230 @@
+.price-cards {
+  background-color: #fafafa;
+  padding-top: 71px;
+}
+
+.price-cards__list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.price-cards__description {
+  font-size: 18px;
+  line-height: 22px;
+  color: #000;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 50px;
+}
+
+.price-cards__title {
+  margin-bottom: 48px;
+}
+
+.price-cards__list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  padding-bottom: 130px;
+}
+
+.price-item {
+  max-width: 556px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 16px 0px rgba(0, 0, 0, 0.09);
+  margin: 20px;
+
+}
+
+.price-item__picture {
+  margin-bottom: 30px;
+  width: 100%;
+}
+
+.price-table caption {
+  font-size: 18px;
+  line-height: 20px;
+  font-weight: 800;
+  color: #000;
+  margin-bottom: 30px;
+}
+
+.price-table {
+  width: 75%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.price-table__row {
+  border-bottom: 1px solid #c1c1c1;
+
+}
+
+.price-table__data {
+  padding: 15px 5px;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.price-cards__item {
+  padding-bottom: 70px;
+}
+
+.price-table__data--bl {
+  color: #2052c9;
+  font-weight: 800;
+
+}
+
+
+@media (max-width: 1200px) {
+
+  .price-cards {
+    padding-top: 45px;
+  }
+
+  .price-item {
+    max-width: 320px;
+  }
+
+  .price-table caption {
+    font-size: 15px;
+    line-height: 17px;
+  }
+
+  .price-table__data {
+    padding: 13px 5px;
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .price-table caption {
+    margin-bottom: 14px;
+  }
+
+  .price-table__data--bl {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .price-cards__item {
+    padding-bottom: 35px;
+  }
+
+  .price-cards__list {
+    padding-bottom: 35px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .repair-service {
+    max-width: 290px;
+  }
+
+  .service__group {
+    margin: 0 auto;
+  }
+
+  .price-item {
+    max-width: 440px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .price-cards__title {
+    margin-bottom: 50px;
+  }
+
+  .price-cards__description {
+    font-size: 13px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  .price-cards__item {
+    padding-bottom: 40px;
+  }
+
+  .price-table__data {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .price-item {
+    margin: 20px 0;
+  }
+
+  .price-table caption {
+    font-size: 16px;
+    line-height: 18px;
+    margin-bottom: 15px;
+  }
+
+  .price-item__picture {
+    margin-bottom: 20px;
+  }
+
+  .price-cards__title {
+    margin-bottom: 65px;
+  }
+
+.price-cards__list {
+  max-width: 100%;
+}
+
+.price-item {
+  max-width: 45%;
+}
+
+}
+
+@media (min-width: 400px) and (max-width: 756px) {
+  .repair-service {
+    max-width: 240px;
+  }
+
+  .service__group {
+    display: flex;
+  }
+
+  .service__group {
+    max-width: 100%;
+  }
+
+ }
+
+ @media (max-width: 560px) {
+
+  .service__group {
+  display: block;
+  margin: 0 auto;
+  max-width: 66%
+}
+}
+
+@media (max-width: 440px) {
+
+  .service__group {
+  max-width: 100%;
+}
+}
+
+@media (max-width: 375px) {
+.price-table__data {
+  font-size: 9px;
+  line-height: 10px;
+}
+
+.price-table caption {
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.price-table {
+  width: 92%;
+}
+
+}
